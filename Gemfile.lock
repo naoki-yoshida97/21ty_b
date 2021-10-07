@@ -120,7 +120,7 @@ GEM
       method_source
       rake (>= 0.13)
       thor (~> 1.0)
-    rake (13.0.6)
+    rake (12.3.3)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -150,6 +150,7 @@ DEPENDENCIES
   listen (~> 3.3)
   puma (~> 5.0)
   rails (~> 6.1.4)
+  rake (~> 12.3, >= 12.3.2)
   spring
   sqlite3 (~> 1.4)
   tzinfo-data
@@ -158,4 +159,4 @@ RUBY VERSION
    ruby 3.0.1p64
 
 BUNDLED WITH
-   2.2.24
+   2.2.25
